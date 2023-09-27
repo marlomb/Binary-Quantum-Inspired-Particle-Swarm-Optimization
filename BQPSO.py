@@ -1,6 +1,4 @@
-# Fitness function, F = 5x^2 + 10y^(-3) - 2z^3
-# Maximize the function F
-# using 4 qubits 
+# Maximize fitness function
 
 import sys
 import random
