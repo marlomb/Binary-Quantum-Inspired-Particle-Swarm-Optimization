@@ -1,4 +1,3 @@
-# Maximize fitness function
 
 import sys
 import random
@@ -60,9 +59,9 @@ def observe(particle, dim):
 
 def updateAngle(theta, thetaPb, thetaGb, dim):
     
-    omega = 0.72
-    phi = 1.65
-    eta = 1.81
+    omega = 0.59
+    phi = 0.58
+    eta = 0.05
     r1 = random.uniform(0,1)
     r2 = random.uniform(0,1)
     delTheta = 0
@@ -94,7 +93,7 @@ if __name__ == '__main__':
     
     pSize = 100
     pDimension = 100
-    maxIte = 250
+    maxIte = 500
     population = []
     binary = []
     theta = []
